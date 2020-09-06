@@ -1,6 +1,6 @@
 {
   "name": "hyper-svelte-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -23,7 +23,7 @@
     "src",
     "dist"
   ],
-  "description": "*Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)*",
+  "description": "A Svelte Component for managing Hyperdrives using the dat-sdk.",
   "dependencies": {},
   "repository": {
     "type": "git",
