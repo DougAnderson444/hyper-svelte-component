@@ -1,5 +1,6 @@
 {
   "name": "hyper-svelte-component",
+  "version": "1.0.0",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -14,14 +15,15 @@
     "svelte": "^3.0.0"
   },
   "keywords": [
-    "svelte"
+    "svelte",
+    "hyperdrive",
+    "dat-sdk"
   ],
   "files": [
     "src",
     "dist"
   ],
   "description": "*Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)*",
-  "version": "1.0.0",
   "dependencies": {},
   "repository": {
     "type": "git",
