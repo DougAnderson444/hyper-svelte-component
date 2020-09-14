@@ -9,11 +9,14 @@
 
   // pass up to parent for use
   export let Hyperdrive;
+  export let Hypercore;
+  
   let sdk;
 
   onMount(async () => {
     sdk = await SDK(sdkOpts);
     Hyperdrive = sdk.Hyperdrive;
+    Hypercore = sdk.Hypercore;
 
     // Close the SDK connection if the browser is closed
     window.addEventListener("unload", async event => {
